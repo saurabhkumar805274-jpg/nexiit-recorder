@@ -202,7 +202,7 @@ export default function LibraryPage() {
 				>
 					<div className="mb-4 flex h-10 items-center gap-2.5 px-3">
 						<img src="/icon-64.png" alt="" className="size-7 rounded-lg" />
-						<span className="text-[15px] font-semibold tracking-tight">NexIIT Recorder</span>
+						<span className="text-[15px] font-semibold tracking-tight">Nexiitt Recorder</span>
 					</div>
 
 					<nav className="space-y-1">
@@ -543,7 +543,7 @@ export default function LibraryPage() {
 							</Modal.Header>
 							<Modal.Body>
 								<p>
-									Open a project in NexIIT Recorder, choose Export, then Create share
+									Open a project in Nexiitt Recorder, choose Export, then Create share
 									link. Your shared recording will appear here.
 								</p>
 							</Modal.Body>

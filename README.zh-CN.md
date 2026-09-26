@@ -1,7 +1,7 @@
 语言: [EN](README.md) | 简中
 
 <p align="center">
-  <img width="220" alt="NexIIT Recorder logo" src="https://github.com/user-attachments/assets/082bb4b0-5fc5-4e9f-abda-55611fd6aded" />
+  <img width="220" alt="Nexiitt Recorder logo" src="https://github.com/user-attachments/assets/082bb4b0-5fc5-4e9f-abda-55611fd6aded" />
 </p>
 
 <p align="center">
@@ -10,18 +10,18 @@
 </p>
 
 ### 无需额外剪辑，也能做出精致的屏幕录制。
-[NexIIT Recorder](https://www.nexiit.dev) 是一款**开源屏幕录制器**和编辑器，适合制作**操作讲解、演示、产品视频**等内容。  
+[Nexiitt Recorder](https://www.nexiit.dev) 是一款**开源屏幕录制器**和编辑器，适合制作**操作讲解、演示、产品视频**等内容。  
 **欢迎提交 PR。** [赞助](https://ko-fi.com/webadderall/goal?g=0)
 
 https://github.com/user-attachments/assets/9b66c71d-ac97-49ff-a0c9-63ac26edf2e4
 
 ---
 
-## NexIIT Recorder 是什么？
+## Nexiitt Recorder 是什么？
 
-NexIIT Recorder 是一款桌面应用，用于录制并编辑屏幕内容，内置面向演示视频的动态呈现工具。你不需要再把原始素材交给动效设计师去补缩放、光标润色或样式化背景，NexIIT Recorder 可以在一个地方免费完成整套流程。
+Nexiitt Recorder 是一款桌面应用，用于录制并编辑屏幕内容，内置面向演示视频的动态呈现工具。你不需要再把原始素材交给动效设计师去补缩放、光标润色或样式化背景，Nexiitt Recorder 可以在一个地方免费完成整套流程。
 
-NexIIT Recorder 支持：
+Nexiitt Recorder 支持：
 
 - **macOS** 14.0+
 - **Windows** 10 Build 19041+
@@ -38,17 +38,17 @@ NexIIT Recorder 支持：
 # 核心功能
 
 ## 自动缩放、光标润色与样式化画面
-NexIIT Recorder 可以根据操作自动强调重点区域，平滑光标运动，添加动态效果，并将最终画面放进带有壁纸、纯色、渐变、模糊、留白和阴影的样式化边框中。
+Nexiitt Recorder 可以根据操作自动强调重点区域，平滑光标运动，添加动态效果，并将最终画面放进带有壁纸、纯色、渐变、模糊、留白和阴影的样式化边框中。
 
 <p>
-  <img src="./docs/media/feature1.gif" width="450" alt="NexIIT Recorder cursor and zoom demo video">
+  <img src="./docs/media/feature1.gif" width="450" alt="Nexiitt Recorder cursor and zoom demo video">
 </p>
 
 ## 动态摄像头气泡叠加
 你可以把摄像头素材作为气泡叠加层加入画面，使用预设位置或自定义坐标摆放，支持镜像、阴影和圆角调节，也可以让它跟随缩放变化，保证动态镜头里整体视觉更协调。
 
 <p>
-  <img src="./docs/media/feature2.gif" width="450" alt="NexIIT Recorder webcam overlay demo video">
+  <img src="./docs/media/feature2.gif" width="450" alt="Nexiitt Recorder webcam overlay demo video">
 </p>
 
 ## 为演示设计的时间线编辑
@@ -60,9 +60,9 @@ NexIIT Recorder 可以根据操作自动强调重点区域，平滑光标运动�
 
 ## 扩展与市场
 
-NexIIT Recorder 拥有一个社区驱动的扩展系统。任何人都可以构建和发布扩展来为 NexIIT Recorder 添加新功能，例如光标点击音效、设备边框、浏览器模拟外壳、壁纸、渲染钩子、设置面板等等。
+Nexiitt Recorder 拥有一个社区驱动的扩展系统。任何人都可以构建和发布扩展来为 Nexiitt Recorder 添加新功能，例如光标点击音效、设备边框、浏览器模拟外壳、壁纸、渲染钩子、设置面板等等。
 
-浏览并安装社区扩展：[NexIIT Recorder 扩展市场](https://marketplace.nexiit.dev/extensions)。
+浏览并安装社区扩展：[Nexiitt Recorder 扩展市场](https://marketplace.nexiit.dev/extensions)。
 
 ---
 
@@ -149,15 +149,15 @@ NexIIT Recorder 拥有一个社区驱动的扩展系统。任何人都可以构�
 # 截图
 
 <p align="center">
-  <img src="https://i.postimg.cc/8CrQtGJf/Screenshot-2026-04-30-at-5-11-52-pm.png" width="700" alt="NexIIT Recorder recording interface screenshot">
+  <img src="https://i.postimg.cc/8CrQtGJf/Screenshot-2026-04-30-at-5-11-52-pm.png" width="700" alt="Nexiitt Recorder recording interface screenshot">
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/pLSMfrTM/Screenshot-2026-04-30-at-5-11-45-pm.png" width="700" alt="NexIIT Recorder editor screenshot">
+  <img src="https://i.postimg.cc/pLSMfrTM/Screenshot-2026-04-30-at-5-11-45-pm.png" width="700" alt="Nexiitt Recorder editor screenshot">
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/Zn9VY6bg/Screenshot-2026-03-18-at-6-32-59-pm.png" width="700" alt="NexIIT Recorder timeline screenshot">
+  <img src="https://i.postimg.cc/Zn9VY6bg/Screenshot-2026-03-18-at-6-32-59-pm.png" width="700" alt="Nexiitt Recorder timeline screenshot">
 </p>
 
 ---
@@ -228,7 +228,7 @@ npm run build
 可以用以下命令移除隔离标记：
 
 ```bash
-xattr -rd com.apple.quarantine /Applications/NexIIT Recorder.app
+xattr -rd com.apple.quarantine /Applications/Nexiitt Recorder.app
 ```
 
 ---
@@ -250,7 +250,7 @@ xattr -rd com.apple.quarantine /Applications/NexIIT Recorder.app
 
 ## 录制
 
-1. 启动 NexIIT Recorder。
+1. 启动 Nexiitt Recorder。
 2. 选择屏幕或窗口。
 3. 选择麦克风和系统音频选项。
 4. 开始录制。
@@ -284,7 +284,7 @@ xattr -rd com.apple.quarantine /Applications/NexIIT Recorder.app
 
 ### 光标捕获
 
-NexIIT Recorder 会在录制画面上渲染一个经过美化的光标叠加层，但真实系统光标是否能被隐藏仍取决于平台能力。
+Nexiitt Recorder 会在录制画面上渲染一个经过美化的光标叠加层，但真实系统光标是否能被隐藏仍取决于平台能力。
 
 **macOS**
 - ScreenCaptureKit 可以较干净地排除真实光标。
@@ -314,7 +314,7 @@ NexIIT Recorder 会在录制画面上渲染一个经过美化的光标叠加层�
 
 # 工作原理
 
-NexIIT Recorder 将平台相关的捕获层与基于渲染器的编辑、导出流程结合在一起。
+Nexiitt Recorder 将平台相关的捕获层与基于渲染器的编辑、导出流程结合在一起。
 
 **捕获**
 - Electron 负责录制流程和应用级控制
@@ -384,11 +384,11 @@ https://github.com/saurabhkumar805274-jpg/nexiit-recorder/issues
 
 # 许可证
 
-NexIIT Recorder 基于 **AGPL 3.0** 发布。
+Nexiitt Recorder 基于 **AGPL 3.0** 发布。
 
 完整许可证文本见 [`LICENSE.md`](LICENSE.md)。作为 AGPL 分叉，本仓库保留该文件未经修改的状态。第三方依赖声明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
-由于本项目采用 AGPL 许可证，任何分发版本的完整对应源代码都必须公开可获取。每个 NexIIT Recorder 版本的源代码即为本仓库。
+由于本项目采用 AGPL 许可证，任何分发版本的完整对应源代码都必须公开可获取。每个 Nexiitt Recorder 版本的源代码即为本仓库。
 
 ---
 
@@ -396,16 +396,16 @@ NexIIT Recorder 基于 **AGPL 3.0** 发布。
 
 ## 上游项目
 
-NexIIT Recorder 是 **[Recordly](https://github.com/webadderallorg/Recordly)**（作者 [@webadderall](https://x.com/webadderall)）的分叉项目，而 Recordly 本身又是 **[OpenScreen](https://github.com/siddharthvaddem/openscreen)** 的分叉。在 Recordly 分叉之时，代码已有超过 80% 与 OpenScreen 不同；OpenScreen 的许多功能（如缩放动画）被直接移植到早期版本的 Recordly 中。
+Nexiitt Recorder 是 **[Recordly](https://github.com/webadderallorg/Recordly)**（作者 [@webadderall](https://x.com/webadderall)）的分叉项目，而 Recordly 本身又是 **[OpenScreen](https://github.com/siddharthvaddem/openscreen)** 的分叉。在 Recordly 分叉之时，代码已有超过 80% 与 OpenScreen 不同；OpenScreen 的许多功能（如缩放动画）被直接移植到早期版本的 Recordly 中。
 
 | 项目 | 作者 | 角色 |
 | --- | --- | --- |
 | [OpenScreen](https://github.com/siddharthvaddem/openscreen) | @siddharthvaddem | 原始项目 |
 | [Recordly](https://github.com/webadderallorg/Recordly) | @webadderall | 本项目所基于的分叉 |
-| NexIIT Recorder | NexIIT | 重新品牌化发行版 |
+| Nexiitt Recorder | Nexiitt | 重新品牌化发行版 |
 
 ## 鸣谢
 
-我们感谢 [@webadderall](https://x.com/webadderall) 与 [@siddharthvaddem](https://github.com/siddharthvaddem) 贡献了 Recordly 与 OpenScreen。没有他们的工作，就不会有 NexIIT Recorder；本分叉项目在相同的 AGPL 3.0 条款下保持完全开源。
+我们感谢 [@webadderall](https://x.com/webadderall) 与 [@siddharthvaddem](https://github.com/siddharthvaddem) 贡献了 Recordly 与 OpenScreen。没有他们的工作，就不会有 Nexiitt Recorder；本分叉项目在相同的 AGPL 3.0 条款下保持完全开源。
 
 ---

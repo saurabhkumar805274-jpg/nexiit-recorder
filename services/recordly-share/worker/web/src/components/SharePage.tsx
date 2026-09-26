@@ -208,15 +208,15 @@ export default function SharePage() {
 			const result = await fetchShareData(code);
 			if (isExpired(result)) {
 				setView("expired");
-				document.title = "Recording unavailable — NexIIT Recorder";
+				document.title = "Recording unavailable — Nexiitt Recorder";
 			} else if (isPasswordRequired(result)) {
 				setView("password");
 				setTitle(result.title);
-				document.title = `${result.title} — NexIIT Recorder`;
+				document.title = `${result.title} — Nexiitt Recorder`;
 			} else if (isShareData(result)) {
 				setData(result);
 				setView("recording");
-				document.title = `${result.video.title} — NexIIT Recorder`;
+				document.title = `${result.video.title} — Nexiitt Recorder`;
 			} else setView("error");
 		} catch {
 			setView("error");

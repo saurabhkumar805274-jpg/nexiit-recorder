@@ -1,6 +1,6 @@
 Language: EN | [简中](README.zh-CN.md)
 
-<h1 align="center">NexIIT Recorder</h1>
+<h1 align="center">Nexiitt Recorder</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/macOS%20%7C%20Windows%20%7C%20Linux-111827?style=for-the-badge" alt="macOS Windows Linux" />
@@ -8,7 +8,7 @@ Language: EN | [简中](README.zh-CN.md)
 </p>
 
 ### Create polished demo videos in minutes
-[NexIIT Recorder](https://github.com/saurabhkumar805274-jpg/nexiit-recorder) is your **open-source screen recorder** and editor for **walkthroughs, demos, product videos**, and more. 
+[Nexiitt Recorder](https://github.com/saurabhkumar805274-jpg/nexiit-recorder) is your **open-source screen recorder** and editor for **walkthroughs, demos, product videos**, and more. 
 **Accepting PRs.**
 
 <img width="1280" height="720" alt="MP4 to GIF export (4)" src="https://github.com/user-attachments/assets/e6d68606-5fc0-4f70-99cd-7521982dc13b" />
@@ -16,15 +16,15 @@ Language: EN | [简中](README.zh-CN.md)
 
 ---
 
-> **Note:** NexIIT Recorder is a fork of [Recordly](https://github.com/webadderallorg/Recordly), which was itself a fork of [OpenScreen](https://github.com/siddharthvaddem/openscreen). It remains open-source under AGPL 3.0. See [Credits](#credits).
+> **Note:** Nexiitt Recorder is a fork of [Recordly](https://github.com/webadderallorg/Recordly), which was itself a fork of [OpenScreen](https://github.com/siddharthvaddem/openscreen). It remains open-source under AGPL 3.0. See [Credits](#credits).
 
 ---
 
-## What is NexIIT Recorder?
+## What is Nexiitt Recorder?
 
-NexIIT Recorder is a desktop app for recording and editing screen captures with motion-driven presentation tools built in. Instead of sending raw footage to a motion designer just to add zooms, cursor polish, or a styled background, NexIIT Recorder handles that workflow in one place for free.
+Nexiitt Recorder is a desktop app for recording and editing screen captures with motion-driven presentation tools built in. Instead of sending raw footage to a motion designer just to add zooms, cursor polish, or a styled background, Nexiitt Recorder handles that workflow in one place for free.
 
-NexIIT Recorder runs on:
+Nexiitt Recorder runs on:
 
 - **macOS** 14.0+
 - **Windows** 10 Build 19041+
@@ -41,17 +41,17 @@ Platform notes:
 # Core Features
 
 ## Auto-zooms, cursor polish, and styled frames
-NexIIT Recorder can automatically emphasize activity with zoom suggestions, smooth cursor movement, add motion effects, and place the final composition inside a styled frame with wallpapers, colors, gradients, blur, padding, and shadows.
+Nexiitt Recorder can automatically emphasize activity with zoom suggestions, smooth cursor movement, add motion effects, and place the final composition inside a styled frame with wallpapers, colors, gradients, blur, padding, and shadows.
 
 <p>
-  <img src="./docs/media/feature1.gif" width="450" alt="NexIIT Recorder cursor and zoom demo video">
+  <img src="./docs/media/feature1.gif" width="450" alt="Nexiitt Recorder cursor and zoom demo video">
 </p>
 
 ## Dynamic webcam bubble overlays
 Add webcam footage as an overlay bubble, position it with presets or custom coordinates, mirror it, control shadow and roundness, and optionally make it react to zoom so it stays visually balanced during motion.
 
 <p>
-  <img src="./docs/media/feature2.gif" width="450" alt="NexIIT Recorder webcam overlay demo video">
+  <img src="./docs/media/feature2.gif" width="450" alt="Nexiitt Recorder webcam overlay demo video">
 </p>
 
 ## Timeline editing built for demos
@@ -63,7 +63,7 @@ Use drag-and-drop timeline tools for zooms, trims, speed regions, annotations, e
 
 ## Extensions & Marketplace
 
-NexIIT Recorder has a community-driven extension system. Anyone can build and publish extensions that add new capabilities to NexIIT Recorder — cursor click sounds, device frames, browser mockups, wallpapers, render hooks, settings panels, and more.
+Nexiitt Recorder has a community-driven extension system. Anyone can build and publish extensions that add new capabilities to Nexiitt Recorder — cursor click sounds, device frames, browser mockups, wallpapers, render hooks, settings panels, and more.
 
 Browse and install community extensions from the [Recordly Marketplace](https://marketplace.recordly.dev/extensions) — the extension ecosystem is still hosted and maintained upstream by the Recordly project.
 
@@ -151,15 +151,15 @@ Browse and install community extensions from the [Recordly Marketplace](https://
 # Screenshots
 
 <p align="center">
-  <img src="https://i.postimg.cc/8CrQtGJf/Screenshot-2026-04-30-at-5-11-52-pm.png" width="700" alt="NexIIT Recorder recording interface screenshot">
+  <img src="https://i.postimg.cc/8CrQtGJf/Screenshot-2026-04-30-at-5-11-52-pm.png" width="700" alt="Nexiitt Recorder recording interface screenshot">
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/pLSMfrTM/Screenshot-2026-04-30-at-5-11-45-pm.png" width="700" alt="NexIIT Recorder editor screenshot">
+  <img src="https://i.postimg.cc/pLSMfrTM/Screenshot-2026-04-30-at-5-11-45-pm.png" width="700" alt="Nexiitt Recorder editor screenshot">
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/Zn9VY6bg/Screenshot-2026-03-18-at-6-32-59-pm.png" width="700" alt="NexIIT Recorder timeline screenshot">
+  <img src="https://i.postimg.cc/Zn9VY6bg/Screenshot-2026-03-18-at-6-32-59-pm.png" width="700" alt="Nexiitt Recorder timeline screenshot">
 </p>
 
 ---
@@ -218,7 +218,7 @@ Locally built apps may be quarantined by macOS.
 Remove the quarantine flag with:
 
 ```bash
-xattr -rd com.apple.quarantine /Applications/NexIIT Recorder.app
+xattr -rd com.apple.quarantine /Applications/Nexiitt Recorder.app
 ```
 
 ---
@@ -240,7 +240,7 @@ xattr -rd com.apple.quarantine /Applications/NexIIT Recorder.app
 
 ## Record
 
-1. Launch NexIIT Recorder.
+1. Launch Nexiitt Recorder.
 2. Select a screen or window.
 3. Choose microphone and system-audio options.
 4. Start recording.
@@ -274,7 +274,7 @@ You can adjust format-specific settings such as quality, GIF frame rate, GIF loo
 
 ### Cursor capture
 
-NexIIT Recorder renders a polished cursor overlay on top of the recording. Platform cursor-hiding behavior still depends on OS support.
+Nexiitt Recorder renders a polished cursor overlay on top of the recording. Platform cursor-hiding behavior still depends on OS support.
 
 **macOS**
 - ScreenCaptureKit can exclude the real cursor cleanly.
@@ -304,7 +304,7 @@ System audio support varies by platform.
 
 # How It Works
 
-NexIIT Recorder combines a platform-specific capture layer with a renderer-driven editor and export pipeline.
+Nexiitt Recorder combines a platform-specific capture layer with a renderer-driven editor and export pipeline.
 
 **Capture**
 - Electron coordinates recording and application flow
@@ -356,11 +356,11 @@ Pull requests are welcome.
 
 # License
 
-NexIIT Recorder is licensed under the **AGPL 3.0**.
+Nexiitt Recorder is licensed under the **AGPL 3.0**.
 
 The full license text is in [`LICENSE.md`](LICENSE.md). This fork keeps that file unmodified, as required by the AGPL. Third-party dependency notices are preserved in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-Because this project is AGPL-licensed, the complete corresponding source code for any distributed build must remain publicly available. The source for every NexIIT Recorder release is this repository.
+Because this project is AGPL-licensed, the complete corresponding source code for any distributed build must remain publicly available. The source for every Nexiitt Recorder release is this repository.
 
 ---
 
@@ -368,17 +368,17 @@ Because this project is AGPL-licensed, the complete corresponding source code fo
 
 ## Upstream projects
 
-NexIIT Recorder is a fork of **[Recordly](https://github.com/webadderallorg/Recordly)** by [@webadderall](https://x.com/webadderall), which was itself a fork of **[OpenScreen](https://github.com/siddharthvaddem/openscreen)**. Over 80% of the code had already diverged from OpenScreen by the time Recordly was forked; many of OpenScreen's features, such as its zoom animations, were directly ported into early versions of Recordly.
+Nexiitt Recorder is a fork of **[Recordly](https://github.com/webadderallorg/Recordly)** by [@webadderall](https://x.com/webadderall), which was itself a fork of **[OpenScreen](https://github.com/siddharthvaddem/openscreen)**. Over 80% of the code had already diverged from OpenScreen by the time Recordly was forked; many of OpenScreen's features, such as its zoom animations, were directly ported into early versions of Recordly.
 
 | Project | Author | Role |
 | --- | --- | --- |
 | [OpenScreen](https://github.com/siddharthvaddem/openscreen) | @siddharthvaddem | Original project |
 | [Recordly](https://github.com/webadderallorg/Recordly) | @webadderall | Fork this project is based on |
-| NexIIT Recorder | NexIIT | Rebranded distribution |
+| Nexiitt Recorder | Nexiitt | Rebranded distribution |
 
 ## Acknowledgements
 
-We thank [@webadderall](https://x.com/webadderall) and [@siddharthvaddem](https://github.com/siddharthvaddem) for Recordly and OpenScreen. NexIIT Recorder would not exist without their work, and this fork remains fully open-source under the same AGPL 3.0 terms.
+We thank [@webadderall](https://x.com/webadderall) and [@siddharthvaddem](https://github.com/siddharthvaddem) for Recordly and OpenScreen. Nexiitt Recorder would not exist without their work, and this fork remains fully open-source under the same AGPL 3.0 terms.
 
 The following supporters backed Recordly upstream and are credited here for their contribution to the codebase's ongoing development:
 

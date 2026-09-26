@@ -1,7 +1,7 @@
 // @see - https://www.electron.build/configuration/configuration
 {
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
-  "appId": "app.nexiit.recorder",
+  "appId": "app.nexiitt.recorder",
   "electronUpdaterCompatibility": ">=2.16",
   "asar": true,
   "asarUnpack": [
@@ -10,11 +10,11 @@
     "node_modules/uiohook-napi/**",
     "electron/native/bin/**"
   ],
-  "productName": "NexIIT Recorder",
+  "productName": "Nexiitt Recorder",
   "protocols": [
     {
-      "name": "NexIIT Recorder authentication",
-      "schemes": ["nexiit"]
+      "name": "Nexiitt Recorder authentication",
+      "schemes": ["nexiitt", "nexiit"]
     }
   ],
   "npmRebuild": true,
@@ -86,30 +86,30 @@
       }
     ],
     "icon": "icons/icons/mac/icon.icns",
-    "artifactName": "NexIIT-Recorder-mac-${arch}.${ext}",
+    "artifactName": "Nexiitt-Recorder-mac-${arch}.${ext}",
     "extendInfo": {
-      "NSAudioCaptureUsageDescription": "NexIIT Recorder needs audio capture permission to record system audio.",
-      "NSCameraUsageDescription": "NexIIT Recorder needs camera access to record webcam video.",
-      "NSMicrophoneUsageDescription": "NexIIT Recorder needs microphone access to record voice audio.",
+      "NSAudioCaptureUsageDescription": "Nexiitt Recorder needs audio capture permission to record system audio.",
+      "NSCameraUsageDescription": "Nexiitt Recorder needs camera access to record webcam video.",
+      "NSMicrophoneUsageDescription": "Nexiitt Recorder needs microphone access to record voice audio.",
       "NSCameraUseContinuityCameraDeviceType": true,
       "com.apple.security.device.audio-input": true,
       "CFBundleDocumentTypes": [
         {
-          "CFBundleTypeName": "NexIIT Recorder Project",
+          "CFBundleTypeName": "Nexiitt Recorder Project",
           "CFBundleTypeRole": "Editor",
-          "CFBundleTypeExtensions": ["nexiit"],
+          "CFBundleTypeExtensions": ["nexiitt", "nexiit", "recordly", "openscreen"],
           "CFBundleTypeIconFile": "icon.icns",
           "LSHandlerRank": "Owner",
-          "LSItemContentTypes": ["app.nexiit.recorder.project"]
+          "LSItemContentTypes": ["app.nexiitt.recorder.project"]
         }
       ],
       "UTExportedTypeDeclarations": [
         {
-          "UTTypeIdentifier": "app.nexiit.recorder.project",
-          "UTTypeDescription": "NexIIT Recorder Project",
+          "UTTypeIdentifier": "app.nexiitt.recorder.project",
+          "UTTypeDescription": "Nexiitt Recorder Project",
           "UTTypeConformsTo": ["public.json"],
           "UTTypeTagSpecification": {
-            "public.filename-extension": ["nexiit"],
+            "public.filename-extension": ["nexiitt", "nexiit", "recordly", "openscreen"],
             "public.mime-type": "application/x-nexiit-project"
           }
         }
@@ -121,7 +121,7 @@
       "AppImage"
     ],
     "icon": "icons/icons/png",
-    "artifactName": "NexIIT-Recorder-linux-x64.${ext}",
+    "artifactName": "Nexiitt-Recorder-linux-x64.${ext}",
     "category": "AudioVideo"
   },
   "win": {
@@ -129,14 +129,14 @@
       "nsis"
     ],
     "icon": "icons/icons/win/icon.ico",
-    "executableName": "NexIIT Recorder",
-    "artifactName": "NexIIT-Recorder-windows-${arch}.${ext}"
+    "executableName": "Nexiitt Recorder",
+    "artifactName": "Nexiitt-Recorder-windows-${arch}.${ext}"
   },
   "nsis": {
     "oneClick": false,
     "allowToChangeInstallationDirectory": true,
     "createDesktopShortcut": true,
     "createStartMenuShortcut": true,
-    "shortcutName": "NexIIT Recorder"
+    "shortcutName": "Nexiitt Recorder"
   }
 }

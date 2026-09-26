@@ -1,7 +1,7 @@
 export const STABLE_UPDATE_CHANNEL = "latest";
 export const EXPERIMENTAL_UPDATE_CHANNEL = "beta";
 export const EXPERIMENTAL_UPDATE_DESCRIPTION =
-	"You've opted into experimental updates so you have the choice to test the latest update of NexIIT Recorder before it's widely available.";
+	"You've opted into experimental updates so you have the choice to test the latest update of Nexiitt Recorder before it's widely available.";
 
 export interface UpdateChannelConfiguration {
 	channel: typeof STABLE_UPDATE_CHANNEL | typeof EXPERIMENTAL_UPDATE_CHANNEL;

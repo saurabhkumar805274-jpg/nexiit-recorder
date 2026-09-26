@@ -45,11 +45,11 @@ export function DashboardSidebar({
 			>
 				<div className="mb-4 flex h-10 items-center gap-2.5 px-3">
 					<img
-						src={`${import.meta.env.BASE_URL}app-icons/nexiit-64.png`}
+						src={`${import.meta.env.BASE_URL}app-icons/nexiitt-64.png`}
 						alt=""
 						className="size-7 rounded-lg"
 					/>
-					<span className="text-[15px] font-semibold tracking-tight">NexIIT Recorder</span>
+					<span className="text-[15px] font-semibold tracking-tight">Nexiitt Recorder</span>
 				</div>
 				<RecordNewButton busy={busy} run={run} className="mb-5 w-full" />
 				<nav className="space-y-1">

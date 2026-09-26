@@ -109,7 +109,7 @@ export function EditorSidebar({
 						variant="ghost"
 						isIconOnly
 						className="mt-auto"
-						aria-label="NexIIT Recorder account"
+						aria-label="Nexiitt Recorder account"
 						onPress={onAccountClick}
 					>
 						<AccountAvatar user={accountUser} className="!size-7" />

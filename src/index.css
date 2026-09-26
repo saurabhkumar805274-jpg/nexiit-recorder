@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@heroui/styles";
-@import "./nexiit-theme.css";
+@import "./nexiitt-theme.css";
 @plugin "tailwindcss-animate";
 @custom-variant dark (&:where(.dark, .dark *));
 @source "../index.html";

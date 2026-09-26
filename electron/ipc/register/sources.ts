@@ -233,7 +233,7 @@ export function registerSourceHandlers({
 						return true;
 					}
 
-				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("nexiit")) {
+				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.toLowerCase().includes("nexiit")) {
 					return true;
 				}
 
@@ -291,7 +291,7 @@ export function registerSourceHandlers({
 				if (
 					ALLOW_RECORDLY_WINDOW_CAPTURE &&
 					(normalizedAppName === "nexiit recorder" ||
-						normalizedWindowName?.includes("nexiit"))
+						normalizedWindowName?.toLowerCase().includes("nexiit"))
 				) {
 					return true;
 				}
@@ -350,7 +350,7 @@ export function registerSourceHandlers({
 						return true;
 					}
 
-				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("nexiit")) {
+				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.toLowerCase().includes("nexiit")) {
 					return true;
 				}
 

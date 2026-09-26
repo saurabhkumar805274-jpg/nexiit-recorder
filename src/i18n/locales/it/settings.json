@@ -83,7 +83,7 @@
 		"connectedZoomDuration": "Durata zoom connessi",
 		"connectedZoomEasing": "Curva pan connesso",
 		"zoomEasingOptions": {
-			"recordly": "NexIIT Recorder",
+			"recordly": "Nexiitt Recorder",
 			"glide": "Glide",
 			"smooth": "Fluido",
 			"snappy": "Rapido",
@@ -254,7 +254,7 @@
 		"deleteRegion": "Elimina audio"
 	},
 	"updates": {
-		"experimentalDescription": "Hai attivato gli aggiornamenti sperimentali, quindi puoi scegliere di provare l'ultimo aggiornamento di NexIIT Recorder prima che sia disponibile per tutti.",
+		"experimentalDescription": "Hai attivato gli aggiornamenti sperimentali, quindi puoi scegliere di provare l'ultimo aggiornamento di Nexiitt Recorder prima che sia disponibile per tutti.",
 		"title": "Aggiornamenti",
 		"experimental": "Aggiornamenti sperimentali",
 		"saveFailed": "Impossibile cambiare il canale di aggiornamento."

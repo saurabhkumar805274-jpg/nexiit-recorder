@@ -1,8 +1,8 @@
 /*
- * NexIIT Recorder brand theme.
+ * Nexiitt Recorder brand theme.
  *
  * HeroUI's default theme ships a blue accent (oklch(0.6204 0.195 253.83)) and
- * near-neutral greys. This file re-tints the base tokens to the NexIIT palette
+ * near-neutral greys. This file re-tints the base tokens to the Nexiitt palette
  * sampled from the logo, then lets HeroUI re-derive every hover/soft/border
  * state through its own color-mix rules.
  *

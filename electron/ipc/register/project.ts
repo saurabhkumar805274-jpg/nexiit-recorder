@@ -492,10 +492,10 @@ export function registerProjectHandlers() {
 				const defaultName = `${safeName}.${PROJECT_FILE_EXTENSION}`;
 
 				const result = await dialog.showSaveDialog({
-					title: "Save NexIIT Recorder Project",
+					title: "Save Nexiitt Recorder Project",
 					defaultPath: path.join(projectsDir, defaultName),
 					filters: [
-						{ name: "NexIIT Recorder Project", extensions: [PROJECT_FILE_EXTENSION] },
+						{ name: "Nexiitt Recorder Project", extensions: [PROJECT_FILE_EXTENSION] },
 						{ name: "JSON", extensions: ["json"] },
 					],
 					properties: ["createDirectory", "showOverwriteConfirmation"],

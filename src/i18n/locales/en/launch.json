@@ -51,8 +51,8 @@
 			"checkingTitle": "Checking for updates...",
 			"downloadingTitle": "Downloading update...",
 			"errorTitle": "Update check failed. Click to retry.",
-			"upToDateTitle": "NexIIT Recorder {{version}} is up to date.",
-			"availableTitle": "NexIIT Recorder {{version}} is available.",
+			"upToDateTitle": "Nexiitt Recorder {{version}} is up to date.",
+			"availableTitle": "Nexiitt Recorder {{version}} is available.",
 			"availableGenericTitle": "An update is available."
 		}
 	},
@@ -68,10 +68,10 @@
 		"share": "Share"
 	},
 	"permissions": {
-		"screenRecordingNeeded": "NexIIT Recorder needs Screen Recording permission before you start. System Settings has been opened. After enabling it, quit and reopen NexIIT Recorder.",
-		"screenRecordingMissing": "Screen Recording permission is still missing. System Settings has been opened again. Enable it, then quit and reopen NexIIT Recorder before recording.",
-		"accessibilityNeeded": "NexIIT Recorder also needs Accessibility permission for cursor tracking. System Settings has been opened. After enabling it, quit and reopen NexIIT Recorder.",
-		"accessibilityMissing": "Accessibility permission is still missing. System Settings has been opened again. Enable it, then quit and reopen NexIIT Recorder before recording.",
+		"screenRecordingNeeded": "Nexiitt Recorder needs Screen Recording permission before you start. System Settings has been opened. After enabling it, quit and reopen Nexiitt Recorder.",
+		"screenRecordingMissing": "Screen Recording permission is still missing. System Settings has been opened again. Enable it, then quit and reopen Nexiitt Recorder before recording.",
+		"accessibilityNeeded": "Nexiitt Recorder also needs Accessibility permission for cursor tracking. System Settings has been opened. After enabling it, quit and reopen Nexiitt Recorder.",
+		"accessibilityMissing": "Accessibility permission is still missing. System Settings has been opened again. Enable it, then quit and reopen Nexiitt Recorder before recording.",
 		"selectSource": "Please select a source to record",
 		"systemAudioUnavailable": "System audio is not available for this source. Recording will continue without system audio.",
 		"microphoneDenied": "Microphone access was denied. Recording will continue without microphone audio.",
@@ -81,7 +81,7 @@
 	"updateToast": {
 		"availableTitle": "Update available",
 		"experimentalAvailableTitle": "Experimental update available",
-		"experimentalDescription": "You've opted into experimental updates so you have the choice to test the latest update of NexIIT Recorder before it's widely available.",
+		"experimentalDescription": "You've opted into experimental updates so you have the choice to test the latest update of Nexiitt Recorder before it's widely available.",
 		"downloadingTitle": "Downloading your update",
 		"readyTitle": "Ready to restart",
 		"checkErrorTitle": "Couldn't check for updates",

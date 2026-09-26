@@ -41,7 +41,7 @@ export function registerCaptionHandlers() {
 						: []),
 					{ name: "Video Files", extensions: VIDEO_FILE_EXTENSIONS },
 					...(includeProjects
-						? [{ name: "NexIIT Recorder Projects", extensions: PROJECT_FILE_EXTENSIONS }]
+						? [{ name: "Nexiitt Recorder Projects", extensions: PROJECT_FILE_EXTENSIONS }]
 						: []),
 					{ name: "All Files", extensions: ["*"] },
 				],

@@ -180,15 +180,15 @@ export function RecordlySignInDialog({
 									<Modal.Header className="items-center gap-4 text-center">
 										<div
 											className="flex items-center gap-3"
-											aria-label="NexIIT Recorder"
+											aria-label="Nexiitt Recorder"
 										>
 											<img
-												src={`${import.meta.env.BASE_URL}app-icons/nexiit-128.png`}
+												src={`${import.meta.env.BASE_URL}app-icons/nexiitt-128.png`}
 												alt=""
 												className="size-12 rounded-xl"
 											/>
 											<span className="text-3xl font-semibold tracking-tight">
-												NexIIT Recorder
+												Nexiitt Recorder
 											</span>
 										</div>
 										<Modal.Heading className="whitespace-nowrap text-[clamp(12px,5cqw,22px)] font-semibold leading-tight tracking-tight">

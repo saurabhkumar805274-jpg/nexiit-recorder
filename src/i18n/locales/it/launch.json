@@ -51,8 +51,8 @@
 			"checkingTitle": "Verifica aggiornamenti in corso...",
 			"downloadingTitle": "Download dell'aggiornamento in corso...",
 			"errorTitle": "Verifica aggiornamenti non riuscita. Clicca per riprovare.",
-			"upToDateTitle": "NexIIT Recorder {{version}} è aggiornato.",
-			"availableTitle": "NexIIT Recorder {{version}} è disponibile.",
+			"upToDateTitle": "Nexiitt Recorder {{version}} è aggiornato.",
+			"availableTitle": "Nexiitt Recorder {{version}} è disponibile.",
 			"availableGenericTitle": "È disponibile un aggiornamento."
 		}
 	},
@@ -68,10 +68,10 @@
 		"share": "Condividi"
 	},
 	"permissions": {
-		"screenRecordingNeeded": "NexIIT Recorder necessita del permesso di Registrazione schermo prima di iniziare. Sono state aperte le Impostazioni di sistema. Dopo averlo abilitato, esci e riapri NexIIT Recorder.",
-		"screenRecordingMissing": "Manca ancora il permesso di Registrazione schermo. Le Impostazioni di sistema sono state riaperte. Abilitalo, poi esci e riapri NexIIT Recorder prima di registrare.",
-		"accessibilityNeeded": "NexIIT Recorder necessita anche del permesso di Accessibilità per il tracciamento del cursore. Sono state aperte le Impostazioni di sistema. Dopo averlo abilitato, esci e riapri NexIIT Recorder.",
-		"accessibilityMissing": "Manca ancora il permesso di Accessibilità. Le Impostazioni di sistema sono state riaperte. Abilitalo, poi esci e riapri NexIIT Recorder prima di registrare.",
+		"screenRecordingNeeded": "Nexiitt Recorder necessita del permesso di Registrazione schermo prima di iniziare. Sono state aperte le Impostazioni di sistema. Dopo averlo abilitato, esci e riapri Nexiitt Recorder.",
+		"screenRecordingMissing": "Manca ancora il permesso di Registrazione schermo. Le Impostazioni di sistema sono state riaperte. Abilitalo, poi esci e riapri Nexiitt Recorder prima di registrare.",
+		"accessibilityNeeded": "Nexiitt Recorder necessita anche del permesso di Accessibilità per il tracciamento del cursore. Sono state aperte le Impostazioni di sistema. Dopo averlo abilitato, esci e riapri Nexiitt Recorder.",
+		"accessibilityMissing": "Manca ancora il permesso di Accessibilità. Le Impostazioni di sistema sono state riaperte. Abilitalo, poi esci e riapri Nexiitt Recorder prima di registrare.",
 		"selectSource": "Seleziona una sorgente da registrare",
 		"systemAudioUnavailable": "L'audio di sistema non è disponibile per questa sorgente. La registrazione continuerà senza audio di sistema.",
 		"microphoneDenied": "L'accesso al microfono è stato negato. La registrazione continuerà senza audio del microfono.",
@@ -81,7 +81,7 @@
 	"updateToast": {
 		"availableTitle": "Aggiornamento disponibile",
 		"experimentalAvailableTitle": "Aggiornamento sperimentale disponibile",
-		"experimentalDescription": "Hai attivato gli aggiornamenti sperimentali, quindi puoi scegliere di provare l'ultimo aggiornamento di NexIIT Recorder prima che sia disponibile per tutti.",
+		"experimentalDescription": "Hai attivato gli aggiornamenti sperimentali, quindi puoi scegliere di provare l'ultimo aggiornamento di Nexiitt Recorder prima che sia disponibile per tutti.",
 		"downloadingTitle": "Download dell'aggiornamento",
 		"readyTitle": "Pronto per il riavvio",
 		"checkErrorTitle": "Impossibile verificare gli aggiornamenti",

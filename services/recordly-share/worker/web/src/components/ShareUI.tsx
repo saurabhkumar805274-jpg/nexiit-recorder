@@ -11,7 +11,7 @@ export function Brand() {
 			className="brand"
 		>
 			<img src="/icon-64.png" alt="" width="28" height="28" />
-			<span>NexIIT Recorder</span>
+			<span>Nexiitt Recorder</span>
 		</Link>
 	);
 }

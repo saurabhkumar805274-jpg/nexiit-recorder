@@ -34,7 +34,7 @@ vite.config.js
 vite.config.d.ts
 
 # Intermediate .iconset produced by `npm run icons:generate`
-build/NexIITRecorder.iconset/
+build/NexiittRecorder.iconset/
 
 # Native capture build artifacts
 electron/native/wgc-capture/build/

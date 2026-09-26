@@ -1,8 +1,8 @@
 {
   "name": "nexiit-recorder",
-  "productName": "NexIIT Recorder",
-  "description": "NexIIT Recorder - a free, creator-focused screen recorder with auto-zoom, cursor effects, backgrounds, annotations, and more - built for polished videos out of the box.",
-  "author": "NexIIT",
+  "productName": "Nexiitt Recorder",
+  "description": "Nexiitt Recorder - a free, creator-focused screen recorder with auto-zoom, cursor effects, backgrounds, annotations, and more - built for polished videos out of the box.",
+  "author": "Nexiitt",
   "contributors": [
     "webadderall (Recordly, original author)",
     "siddharthvaddem (OpenScreen)"
@@ -16,7 +16,7 @@
     "url": "https://github.com/saurabhkumar805274-jpg/nexiit-recorder/issues"
   },
   "private": true,
-  "version": "1.5.2",
+  "version": "1.5.3",
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "scripts": {

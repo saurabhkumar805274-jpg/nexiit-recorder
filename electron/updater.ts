@@ -141,7 +141,7 @@ function applyExperimentalUpdatesPreference() {
 	const { channel, allowPrerelease, allowDowngrade } = getUpdateChannelConfiguration(enabled);
 	autoUpdater.channel = channel;
 	autoUpdater.allowPrerelease = allowPrerelease;
-	// Changing channels enables downgrades inside electron-updater. NexIIT Recorder never
+	// Changing channels enables downgrades inside electron-updater. Nexiitt Recorder never
 	// needs that behaviour: opting out waits for the next stable version instead.
 	autoUpdater.allowDowngrade = allowDowngrade;
 	writeUpdaterLog(
@@ -261,10 +261,10 @@ function createDownloadingUpdateToastPayload(
 		phase: "downloading",
 		detail:
 			normalizedProgress >= 100
-				? "Finishing the update download. NexIIT Recorder will restart as soon as the installer is ready."
+				? "Finishing the update download. Nexiitt Recorder will restart as soon as the installer is ready."
 				: remainingMb !== null
-					? `${remainingMb.toFixed(1)} MB left before NexIIT Recorder restarts.`
-					: "Downloading the update now. NexIIT Recorder will restart when it finishes.",
+					? `${remainingMb.toFixed(1)} MB left before Nexiitt Recorder restarts.`
+					: "Downloading the update now. Nexiitt Recorder will restart when it finishes.",
 		delayMs: UPDATE_REMINDER_DELAY_MS,
 		isExperimental,
 		progressPercent: normalizedProgress,
@@ -471,7 +471,7 @@ export async function downloadAvailableUpdate(
 	setUpdateStatusSummary({
 		status: "downloading",
 		availableVersion,
-		detail: `Downloading NexIIT Recorder ${availableVersion}`,
+		detail: `Downloading Nexiitt Recorder ${availableVersion}`,
 	});
 	emitUpdateToastState(
 		sendToRenderer,
@@ -589,7 +589,7 @@ async function showAvailableUpdateDialog(
 	const result = await showMessageBox(getMainWindow, {
 		type: "info",
 		title: isExperimental ? "Experimental Update Available" : "Update Available",
-		message: `NexIIT Recorder ${version} is available${isExperimental ? " on the experimental channel" : ""}.`,
+		message: `Nexiitt Recorder ${version} is available${isExperimental ? " on the experimental channel" : ""}.`,
 		detail: isPreview
 			? `${isExperimental ? EXPERIMENTAL_UPDATE_DESCRIPTION : "This is a development preview of the standard update flow."} No real update will be installed.`
 			: isExperimental
@@ -633,8 +633,8 @@ async function showDownloadedUpdateDialog(
 		type: "info",
 		title: "Update Ready",
 		message: isPreview
-			? `NexIIT Recorder ${version} is ready to install.`
-			: `NexIIT Recorder ${version} has been downloaded.`,
+			? `Nexiitt Recorder ${version} is ready to install.`
+			: `Nexiitt Recorder ${version} has been downloaded.`,
 		detail: isPreview
 			? "Development preview of the native update prompt. No real update will be installed."
 			: "Install and restart now, or remind me later.",
@@ -686,7 +686,7 @@ async function showUpdateErrorDialog(
 	await showMessageBox(getMainWindow, {
 		type: "error",
 		title: "Update Failed",
-		message: `NexIIT Recorder ${version} could not be downloaded.`,
+		message: `Nexiitt Recorder ${version} could not be downloaded.`,
 		detail: String(error),
 		buttons: ["OK"],
 		defaultId: 0,
@@ -782,7 +782,7 @@ export function setupAutoUpdates(
 		setUpdateStatusSummary({
 			status: "available",
 			availableVersion: info.version,
-			detail: `NexIIT Recorder ${info.version} is available.`,
+			detail: `Nexiitt Recorder ${info.version} is available.`,
 		});
 		if (skippedVersion === info.version) {
 			manualCheckRequested = false;
@@ -810,7 +810,7 @@ export function setupAutoUpdates(
 		setUpdateStatusSummary({
 			status: "up-to-date",
 			availableVersion: null,
-			detail: `NexIIT Recorder ${app.getVersion()} is up to date.`,
+			detail: `Nexiitt Recorder ${app.getVersion()} is up to date.`,
 		});
 		clearVisibleUpdateToast(sendToRenderer);
 		manualCheckRequested = false;
@@ -825,7 +825,7 @@ export function setupAutoUpdates(
 		setUpdateStatusSummary({
 			status: "downloading",
 			availableVersion,
-			detail: `Downloading NexIIT Recorder ${availableVersion}`,
+			detail: `Downloading Nexiitt Recorder ${availableVersion}`,
 		});
 		writeUpdaterLog(
 			`Download progress for ${availableVersion}: ${progress.percent.toFixed(1)}%`,
@@ -884,7 +884,7 @@ export function setupAutoUpdates(
 		setUpdateStatusSummary({
 			status: "ready",
 			availableVersion: info.version,
-			detail: `NexIIT Recorder ${info.version} is ready to install.`,
+			detail: `Nexiitt Recorder ${info.version} is ready to install.`,
 		});
 		clearDeferredReminderTimer();
 

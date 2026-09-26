@@ -1,4 +1,4 @@
-// Generates the NexIIT Recorder icon set from a single square master PNG.
+// Generates the Nexiitt Recorder icon set from a single square master PNG.
 //
 // Usage: swift scripts/generate-brand-icons.swift <master.png>
 //
@@ -175,7 +175,7 @@ print("wrote \(targets.count) PNG files")
 
 // --- macOS .icns via iconutil -------------------------------------------------------
 
-let iconsetDir = repoRoot.appendingPathComponent("build/NexIITRecorder.iconset")
+let iconsetDir = repoRoot.appendingPathComponent("build/NexiittRecorder.iconset")
 try? FileManager.default.createDirectory(at: iconsetDir, withIntermediateDirectories: true)
 
 // iconutil naming: icon_<w>x<h>.png and icon_<w>x<h>@2x.png
@@ -189,7 +189,7 @@ let iconsetSpecs: [(name: String, pixels: Int, fill: Double)] = [
 
 for spec in iconsetSpecs {
 	let image = render(resize(cropped, to: spec.pixels), canvas: spec.pixels, fill: spec.fill)
-	writePNG(image, to: "build/NexIITRecorder.iconset/\(spec.name).png")
+	writePNG(image, to: "build/NexiittRecorder.iconset/\(spec.name).png")
 }
 
 let icnsURL = repoRoot.appendingPathComponent("icons/icons/mac/icon.icns")

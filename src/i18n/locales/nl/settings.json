@@ -83,7 +83,7 @@
 		"connectedZoomDuration": "Verbonden zoomduur",
 		"connectedZoomEasing": "Verbonden pancurve",
 		"zoomEasingOptions": {
-			"recordly": "NexIIT Recorder",
+			"recordly": "Nexiitt Recorder",
 			"glide": "Glijden",
 			"smooth": "Vloeiend",
 			"snappy": "Pittig",
@@ -254,7 +254,7 @@
 		"deleteRegion": "Audio verwijderen"
 	},
 	"updates": {
-		"experimentalDescription": "Je hebt experimentele updates ingeschakeld, dus je kunt de nieuwste update van NexIIT Recorder testen voordat die breed beschikbaar is.",
+		"experimentalDescription": "Je hebt experimentele updates ingeschakeld, dus je kunt de nieuwste update van Nexiitt Recorder testen voordat die breed beschikbaar is.",
 		"title": "Updates",
 		"experimental": "Experimentele updates",
 		"saveFailed": "Kan het updatekanaal niet wijzigen."

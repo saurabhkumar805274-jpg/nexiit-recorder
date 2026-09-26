@@ -1,7 +1,7 @@
 {
 	"app": {
-		"name": "NexIIT Recorder",
-		"editorTitle": "NexIIT Recorder Editor",
+		"name": "Nexiitt Recorder",
+		"editorTitle": "Nexiitt Recorder Editor",
 		"subtitle": "Запись экрана и редактирование видео",
 		"language": "Язык",
 		"manageRecordings": "Открыть папку с записями"

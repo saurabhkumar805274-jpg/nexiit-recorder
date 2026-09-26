@@ -25,7 +25,10 @@ function callbackHeaders(contentType: string) {
 }
 
 export function createAuthCallbackController({ isDev, focusApp }: AuthCallbackOptions) {
-	const protocol = isDev ? "nexiit-dev" : "nexiit";
+	const protocol = isDev ? "nexiitt-dev" : "nexiitt";
+	// Older builds registered the single-t scheme. Keep accepting it so a sign-in
+	// link opened by a browser that cached the previous scheme still lands here.
+	const acceptedProtocols = new Set([protocol, isDev ? "nexiit-dev" : "nexiit"]);
 	let pendingUrl: string | null = null;
 	let server: Server | null = null;
 
@@ -33,7 +36,8 @@ export function createAuthCallbackController({ isDev, focusApp }: AuthCallbackOp
 		if (rawUrl.length > MAX_CALLBACK_URL_LENGTH) return null;
 		try {
 			const url = new URL(rawUrl);
-			if (url.protocol !== `${protocol}:` || url.hostname !== "auth") return null;
+			if (!acceptedProtocols.has(url.protocol.slice(0, -1)) || url.hostname !== "auth")
+				return null;
 			if (url.pathname !== CALLBACK_PATH || url.username || url.password) return null;
 			return url;
 		} catch {
@@ -91,7 +95,7 @@ export function createAuthCallbackController({ isDev, focusApp }: AuthCallbackOp
 			dispatch(appUrl.href);
 			response.writeHead(200, callbackHeaders("text/html; charset=utf-8"));
 			response.end(
-				'<!doctype html><meta charset="utf-8"><title>Signed into NexIIT Recorder</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#08090a;color:#ededef;font:16px "Helvetica Neue",Helvetica,Arial,sans-serif}.card{max-width:420px;padding:32px;text-align:center}h1{font-size:22px;font-weight:500}p{color:#8b8b8e;line-height:1.6}</style><main class="card"><h1>Signed into NexIIT Recorder</h1><p>You can close this tab and return to the app.</p></main>',
+				'<!doctype html><meta charset="utf-8"><title>Signed into Nexiitt Recorder</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#08090a;color:#ededef;font:16px "Helvetica Neue",Helvetica,Arial,sans-serif}.card{max-width:420px;padding:32px;text-align:center}h1{font-size:22px;font-weight:500}p{color:#8b8b8e;line-height:1.6}</style><main class="card"><h1>Signed into Nexiitt Recorder</h1><p>You can close this tab and return to the app.</p></main>',
 			);
 		});
 		server.on("error", (error) => {
