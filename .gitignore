@@ -33,6 +33,9 @@ extension-sources/
 vite.config.js
 vite.config.d.ts
 
+# Intermediate .iconset produced by `npm run icons:generate`
+build/NexIITRecorder.iconset/
+
 # Native capture build artifacts
 electron/native/wgc-capture/build/
 electron/native/cursor-monitor/build/

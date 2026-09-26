@@ -1,8 +1,8 @@
 import path from "node:path";
 import { USER_DATA_PATH } from "../appPaths";
 
-export const PROJECT_FILE_EXTENSION = "recordly";
-export const LEGACY_PROJECT_FILE_EXTENSIONS = ["openscreen"];
+export const PROJECT_FILE_EXTENSION = "nexiit";
+export const LEGACY_PROJECT_FILE_EXTENSIONS = ["recordly", "openscreen"];
 export const PROJECTS_DIRECTORY_NAME = "Projects";
 export const PROJECT_THUMBNAIL_SUFFIX = ".preview.png";
 export const RECENT_PROJECTS_FILE = path.join(USER_DATA_PATH, "recent-projects.json");

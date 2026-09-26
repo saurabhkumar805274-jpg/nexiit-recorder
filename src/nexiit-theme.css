@@ -1,0 +1,118 @@
+/*
+ * NexIIT Recorder brand theme.
+ *
+ * HeroUI's default theme ships a blue accent (oklch(0.6204 0.195 253.83)) and
+ * near-neutral greys. This file re-tints the base tokens to the NexIIT palette
+ * sampled from the logo, then lets HeroUI re-derive every hover/soft/border
+ * state through its own color-mix rules.
+ *
+ * Only base tokens are declared here on purpose. Derived tokens
+ * (--accent-hover, --accent-soft, --border-secondary, --surface-shadow, ...)
+ * are inherited from the HeroUI cascade and follow automatically.
+ *
+ * Selector lists mirror @heroui/styles so the `.dark` class that
+ * ThemeContext toggles on <html> keeps winning over the light defaults.
+ */
+
+@layer base {
+	/* Brand accent, shared by both themes.
+	   #9848F8 = oklch(0.5949 0.2461 299.51)
+	   Contrast: 4.55:1 with white text AND 4.55:1 on white, so it clears
+	   WCAG AA for body text in either theme. */
+	:root,
+	:host {
+		--accent: oklch(0.5949 0.2461 299.51);
+		--accent-foreground: var(--white);
+	}
+
+	/* ---- Light theme: clean whites with a faint purple cast ---- */
+	:root,
+	.light,
+	.default,
+	[data-theme="light"],
+	[data-theme="default"],
+	:host(.light),
+	:host(.default),
+	:host([data-theme="light"]),
+	:host([data-theme="default"]) {
+		--background: oklch(0.975 0.004 300);
+		--foreground: oklch(0.22 0.02 290);
+
+		--surface: oklch(0.995 0.002 300);
+		--surface-foreground: var(--foreground);
+		--surface-secondary: oklch(0.962 0.006 300);
+		--surface-secondary-foreground: var(--foreground);
+		--surface-tertiary: oklch(0.945 0.008 300);
+		--surface-tertiary-foreground: var(--foreground);
+
+		--overlay: oklch(0.998 0.002 300);
+		--overlay-foreground: var(--foreground);
+
+		--muted: oklch(0.545 0.028 295);
+
+		--default: oklch(0.945 0.012 300);
+		--default-foreground: oklch(0.24 0.02 290);
+
+		--field-background: oklch(1 0 0);
+		--field-foreground: oklch(0.22 0.02 290);
+		--field-placeholder: var(--muted);
+
+		--segment: oklch(0.97 0.008 300);
+		--segment-foreground: oklch(0.24 0.02 290);
+
+		--border: oklch(0.9 0.012 300);
+		--separator: oklch(0.92 0.012 300);
+
+		--link: var(--accent);
+	}
+
+	/* ---- Dark theme: deep purple surfaces keyed to the logo's base (#180848) ---- */
+	.dark,
+	[data-theme="dark"],
+	:host(.dark),
+	:host([data-theme="dark"]) {
+		--background: oklch(0.155 0.055 286);
+		--foreground: oklch(0.97 0.006 300);
+
+		--surface: oklch(0.215 0.075 286);
+		--surface-foreground: var(--foreground);
+		--surface-secondary: oklch(0.262 0.08 286);
+		--surface-secondary-foreground: var(--foreground);
+		--surface-tertiary: oklch(0.295 0.085 286);
+		--surface-tertiary-foreground: var(--foreground);
+
+		--overlay: oklch(0.235 0.08 286);
+		--overlay-foreground: var(--foreground);
+
+		--muted: oklch(0.72 0.03 295);
+
+		--default: oklch(0.3 0.085 286);
+		--default-foreground: oklch(0.97 0.006 300);
+
+		--field-background: oklch(0.205 0.07 286);
+		--field-foreground: oklch(0.97 0.006 300);
+		--field-placeholder: var(--muted);
+
+		--segment: oklch(0.205 0.07 286);
+		--segment-foreground: oklch(0.97 0.006 300);
+
+		--border: oklch(0.32 0.06 286);
+		--separator: oklch(0.3 0.055 286);
+
+		/* Lifted from --accent so links stay legible on the dark surface. */
+		--link: oklch(0.78 0.15 302);
+
+		--backdrop: rgba(12, 4, 34, 0.62);
+
+		/* Purple-tinted shadows read better against the tinted surfaces. */
+		--surface-shadow:
+			0 2px 4px 0 rgba(10, 2, 32, 0.4), 0 1px 2px 0 rgba(10, 2, 32, 0.5),
+			0 0 1px 0 rgba(152, 72, 248, 0.08);
+		--overlay-shadow:
+			0 2px 8px 0 rgba(10, 2, 32, 0.5), 0 -6px 12px 0 rgba(10, 2, 32, 0.35),
+			0 14px 28px 0 rgba(10, 2, 32, 0.55);
+		--field-shadow:
+			0 2px 4px 0 rgba(10, 2, 32, 0.4), 0 1px 2px 0 rgba(10, 2, 32, 0.5),
+			0 0 1px 0 rgba(152, 72, 248, 0.08);
+	}
+}

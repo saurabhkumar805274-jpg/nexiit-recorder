@@ -233,9 +233,9 @@ export function registerSourceHandlers({
 						return true;
 					}
 
-					if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("recordly")) {
-						return true;
-					}
+				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("nexiit")) {
+					return true;
+				}
 
 					for (const ownName of ownWindowNames) {
 						if (!ownName) continue;
@@ -288,13 +288,13 @@ export function registerSourceHandlers({
 						return false;
 					}
 
-					if (
-						ALLOW_RECORDLY_WINDOW_CAPTURE &&
-						(normalizedAppName === "recordly" ||
-							normalizedWindowName?.includes("recordly"))
-					) {
-						return true;
-					}
+				if (
+					ALLOW_RECORDLY_WINDOW_CAPTURE &&
+					(normalizedAppName === "nexiit recorder" ||
+						normalizedWindowName?.includes("nexiit"))
+				) {
+					return true;
+				}
 
 					if (!normalizedWindowName) {
 						return true;
@@ -350,9 +350,9 @@ export function registerSourceHandlers({
 						return true;
 					}
 
-					if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("recordly")) {
-						return true;
-					}
+				if (ALLOW_RECORDLY_WINDOW_CAPTURE && normalizedName.includes("nexiit")) {
+					return true;
+				}
 
 					for (const ownName of ownWindowNames) {
 						if (!ownName) continue;

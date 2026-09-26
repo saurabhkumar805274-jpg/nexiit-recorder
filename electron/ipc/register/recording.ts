@@ -708,7 +708,7 @@ export function registerRecordingHandlers(
 					!ALLOW_RECORDLY_WINDOW_CAPTURE &&
 					source?.id?.startsWith("window:") &&
 					appName &&
-					(appName === ownAppName || appName === "recordly")
+					(appName === ownAppName || appName === "nexiit recorder")
 				) {
 					return {
 						success: false,

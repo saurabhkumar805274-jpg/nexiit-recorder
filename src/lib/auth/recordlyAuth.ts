@@ -5,7 +5,7 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.trim();
 const supabasePublishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY?.trim();
 const callbackUrl = import.meta.env.DEV
 	? "http://127.0.0.1:43821/auth/callback"
-	: "recordly://auth/callback";
+	: "nexiit://auth/callback";
 
 export const recordlyAuthConfigured = Boolean(supabaseUrl && supabasePublishableKey);
 
@@ -23,7 +23,7 @@ export const recordlyAuth = recordlyAuthConfigured
 function requireAuth() {
 	if (!recordlyAuth) {
 		throw new Error(
-			"Recordly Auth is not configured. Add the Supabase URL and publishable key.",
+			"NexIIT Recorder Auth is not configured. Add the Supabase URL and publishable key.",
 		);
 	}
 	return recordlyAuth;

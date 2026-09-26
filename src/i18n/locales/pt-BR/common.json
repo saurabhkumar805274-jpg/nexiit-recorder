@@ -1,7 +1,7 @@
 {
 	"app": {
-		"name": "Recordly",
-		"editorTitle": "Editor do Recordly",
+		"name": "NexIIT Recorder",
+		"editorTitle": "Editor do NexIIT Recorder",
 		"subtitle": "Gravação e edição de tela",
 		"language": "Idioma",
 		"manageRecordings": "Abrir pasta de gravações"
