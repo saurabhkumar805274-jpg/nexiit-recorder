@@ -47,6 +47,18 @@
     {
       "from": "public/wallpapers",
       "to": "assets/wallpapers"
+    },
+    {
+      "from": "LICENSE.md",
+      "to": "LICENSE.md"
+    },
+    {
+      "from": "THIRD_PARTY_NOTICES.md",
+      "to": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "from": "README.md",
+      "to": "README.md"
     }
   ],
   "publish": [
