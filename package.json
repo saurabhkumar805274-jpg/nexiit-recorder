@@ -16,7 +16,7 @@
 		"url": "https://github.com/saurabhkumar805274-jpg/nexiit-recorder/issues"
 	},
 	"private": true,
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite --config vite.config.ts",
