@@ -270,15 +270,30 @@
 			// Order matters only for the "no OS detected" default.
 			const DESIRED = [
 				{ id: "mac", os: "macOS", label: "Apple Silicon", file: "NexIIT-Recorder-mac-arm64.dmg", size: "195 MB" },
+				{ id: "macx64", os: "macOS", label: "Intel", file: "NexIIT-Recorder-mac-x64.dmg", size: "205 MB" },
 				{ id: "win", os: "Windows", label: "64-bit", file: "NexIIT-Recorder-windows-x64.exe", size: "191 MB" },
 				{ id: "linux", os: "Linux", label: "64-bit", file: "NexIIT-Recorder-linux-x64.AppImage", size: "215 MB" },
 			];
+
+			// Apple Silicon Macs lie about their CPU: browsers report
+			// "Intel Mac OS X" / platform "MacIntel" for compatibility. The two
+			// signals that do distinguish them are an arm marker in the UA, and
+			// maxTouchPoints > 1 (Apple Silicon Macs expose a touch digitizer,
+			// Intel Macs do not). Falls back to Intel when neither is conclusive.
+			function isAppleSilicon() {
+				const ua = navigator.userAgent || "";
+				if (/arm64|aarch64|Apple ?TV|Mac ?arm/i.test(ua)) return true;
+				if (/Intel/.test(ua)) return (navigator.maxTouchPoints || 0) > 1;
+				return true;
+			}
 
 			function currentPlatform() {
 				const ua = navigator.userAgent || "";
 				const p = navigator.platform || "";
 				if (/Win/i.test(ua) || /Win/i.test(p)) return "win";
-				if (/Mac|iPhone|iPad|iPod/i.test(ua) || /Mac/i.test(p)) return "mac";
+				if (/Mac|iPhone|iPad|iPod/i.test(ua) || /Mac/i.test(p)) {
+					return isAppleSilicon() ? "mac" : "macx64";
+				}
 				if (/Linux|X11|CrOS/i.test(ua) || /Linux/i.test(p)) return "linux";
 				return null;
 			}
@@ -316,7 +331,7 @@
 				const btn = document.getElementById("heroBtn");
 				btn.href = chosen.url;
 				btn.setAttribute("download", chosen.file);
-				document.getElementById("macNote").hidden = detectedId !== "mac";
+				document.getElementById("macNote").hidden = detectedId !== "mac" && detectedId !== "macx64";
 			}
 
 			function fromVersion(version) {
