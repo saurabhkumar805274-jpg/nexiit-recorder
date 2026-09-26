@@ -64,6 +64,10 @@ import {
 const electronMainDir = path.dirname(fileURLToPath(import.meta.url));
 const IS_SMOKE_EXPORT = process.env.RECORDLY_SMOKE_EXPORT === "1";
 
+// The AGPL requires that recipients of a distributed binary can find the
+// complete corresponding source, so the app links to this repository.
+const SOURCE_REPO_URL = "https://github.com/saurabhkumar805274-jpg/nexiit-recorder";
+
 function ignoreBrokenConsolePipe(stream: NodeJS.WritableStream | undefined) {
 	stream?.on("error", (error: NodeJS.ErrnoException) => {
 		if (error.code === "EPIPE" || error.code === "EIO") {
@@ -446,6 +450,18 @@ function setupApplicationMenu() {
 			label: app.name,
 			submenu: [
 				{ role: "about" },
+				{
+					label: "Credits and License",
+					click: () => {
+						shell.openExternal(`${SOURCE_REPO_URL}/releases`);
+					},
+				},
+				{
+					label: "View Source Code",
+					click: () => {
+						shell.openExternal(SOURCE_REPO_URL);
+					},
+				},
 				{ type: "separator" },
 				{ role: "services" },
 				{ type: "separator" },

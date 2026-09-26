@@ -361,7 +361,7 @@
 					});
 					// Only repaint if we actually resolved direct download URLs.
 					if (platforms.some((p) => p.url)) render(platforms, detected);
-				} catch (err) {
+				} catch {
 					// Offline or blocked: the fallback links above stay in place.
 				}
 			}
