@@ -752,7 +752,21 @@ jobs:
     runs-on: ubuntu-latest
     if: needs.prepare-release.outputs.prerelease != 'true' && needs.prepare-release.outputs.release_scope == 'all'
     steps:
+      - name: Check for a configured Homebrew tap
+        id: tap
+        shell: bash
+        run: |
+          if [ -z "$TAP_REPO" ]; then
+            echo "No HOMEBREW_TAP_REPO variable is set, so there is no tap to update."
+            echo "Homebrew distribution is optional; skipping."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+        env:
+          TAP_REPO: ${{ vars.HOMEBREW_TAP_REPO }}
       - name: Dispatch Homebrew tap workflow
+        if: steps.tap.outputs.configured == 'true'
         shell: bash
         run: |
           gh workflow run homebrew-tap.yml \
